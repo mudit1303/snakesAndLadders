@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<title>Snakes and ladders Game</title>
+<script src="ladders.js"></script>
+<script src="snakes.js"></script>
+<script src="inputfunctions.js"></script>
+<script src="playgame.js"></script>
+<script src="players.js"></script>
+<html>
+    <head>Snakes And Ladders Game</head>
+    <div id="updateDiv"></div>
+</html>
+<script>
+   let snakes = snakesInput()
+   let ladders =  laddersInput()
+   let playersCount = playersInput()
+   playGame(playersCount,snakes,ladders)
+   //print()
+</script>
